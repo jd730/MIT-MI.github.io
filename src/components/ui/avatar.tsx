@@ -56,7 +56,7 @@ const AvatarComponent: React.FC<AvatarComponentProps> = ({
 }) => {
   return (
     <Avatar className={className}>
-      <AvatarImage src={src} alt={alt} />
+      <AvatarImage src={src} alt={alt} className="object-cover object-top"/>
       <AvatarFallback>{fallback}</AvatarFallback>
     </Avatar>
   )

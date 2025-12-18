@@ -32,18 +32,10 @@ export const SOCIAL_LINKS: SocialLink[] = [
     href: 'https://github.com/MIT-MI/',
     label: 'GitHub',
   },
-  // {
-  //   href: 'https://twitter.com/enscry',
-  //   label: 'Twitter',
-  // },
   {
     href: 'mailto:ppliang@mit.edu',
     label: 'Email',
   },
-  // {
-  //   href: '/rss.xml',
-  //   label: 'RSS',
-  // },
 ]
 
 export const ICON_MAP: IconMap = {
@@ -53,4 +45,5 @@ export const ICON_MAP: IconMap = {
   Twitter: 'lucide:twitter',
   Email: 'lucide:mail',
   RSS: 'lucide:rss',
+  Scholar: 'lucide:book',
 }

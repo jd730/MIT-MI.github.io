@@ -11,30 +11,40 @@ interface Props {
 }
 
 const { person } = Astro.props
-const { name, avatar, bio, pronouns } = person.data
+const {
+  name,
+  avatar,
+  title,
+  email,
+  website,
+  github,
+  linkedin,
+  scholar,
+  isPastMember,
+} = person.data
 const currentPath = Astro.url.pathname
 const isPersonPage = currentPath === `/people/${person.id}`
 
 const socialLinks: SocialLink[] = [
-  person.data.website && { href: person.data.website, label: 'Website' },
-  person.data.github && { href: person.data.github, label: 'GitHub' },
-  person.data.twitter && { href: person.data.twitter, label: 'Twitter' },
-  person.data.linkedin && { href: person.data.linkedin, label: 'LinkedIn' },
-  person.data.mail && { href: `mailto:${person.data.mail}`, label: 'Email' },
+  website && { href: website, label: 'Website' },
+  github && { href: github, label: 'GitHub' },
+  linkedin && { href: linkedin, label: 'LinkedIn' },
+  scholar && { href: scholar, label: 'Scholar' },
+  email && { href: `mailto:${email}`, label: 'Email' },
 ].filter(Boolean) as SocialLink[]
 ---
 
-<div
-  class="has-[a:hover]:bg-muted/50 overflow-hidden rounded-xl border p-4 transition-colors duration-300 ease-in-out"
+<Link
+  href={`/people/${person.id}`}
+  class={cn('block', isPersonPage && 'pointer-events-none')}
 >
-  <div class="flex flex-wrap gap-4">
-    <Link
-      href={`/people/${person.id}`}
-      class={cn('block', isPersonPage && 'pointer-events-none')}
-    >
+  <div
+    class="hover:bg-muted overflow-hidden rounded-xl border p-4 transition-colors duration-300 ease-in-out"
+  >
+    <div class="flex flex-wrap gap-4">
       <AvatarComponent
         client:load
-        src={avatar}
+        src={avatar || '/static/avatar-fallback.png'}
         alt={`Avatar of ${name}`}
         fallback={name[0]}
         className={cn(
@@ -43,20 +53,18 @@ const socialLinks: SocialLink[] = [
             'hover:ring-primary transition-shadow duration-300 hover:cursor-pointer hover:ring-2',
         )}
       />
-    </Link>
-    <div class="flex grow flex-col justify-between gap-y-4">
-      <div>
-        <div class="flex flex-wrap items-center gap-x-2">
-          <h3 class="text-lg font-medium">{name}</h3>
-          {
-            pronouns && (
-              <span class="text-muted-foreground text-sm">({pronouns})</span>
-            )
-          }
+
+      <div class="flex grow flex-col justify-between gap-y-4">
+        <div>
+          <div class="flex flex-wrap items-center gap-x-2">
+            <h3 class="text-lg font-medium">{name}</h3>
+          </div>
+          <p class="text-muted-foreground text-sm">
+            {isPastMember ? `${title} (Past Member)` : title}
+          </p>
         </div>
-        <p class="text-muted-foreground text-sm">{bio}</p>
+        <SocialIcons links={socialLinks} />
       </div>
-      <SocialIcons links={socialLinks} />
     </div>
   </div>
-</div>
+</Link>
