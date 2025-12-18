@@ -1,0 +1,58 @@
+---
+import PersonCard from '@/components/PersonCard.astro'
+import BlogCard from '@/components/BlogCard.astro'
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+import PageHead from '@/components/PageHead.astro'
+import Layout from '@/layouts/Layout.astro'
+import { getAllPeople, getPostsByPerson } from '@/lib/data-utils'
+
+export async function getStaticPaths() {
+  const people = await getAllPeople()
+  return people.map((person) => ({
+    params: { id: person.id },
+    props: { person },
+  }))
+}
+
+const { person } = Astro.props
+const personPosts = await getPostsByPerson(person.id)
+---
+
+<Layout class="max-w-3xl">
+  <PageHead
+    slot="head"
+    title={`${person.data.name}`}
+    description={person.data.bio || `Profile of ${person.data.name}.`}
+    noindex
+  />
+  <Breadcrumbs
+    items={[
+      { href: '/people', label: 'People', icon: 'lucide:users' },
+      { label: person.data.name, icon: 'lucide:user' },
+    ]}
+  />
+
+  <section>
+    <PersonCard person={person} />
+  </section>
+  <section class="flex flex-col gap-y-4">
+    <h2 class="text-2xl font-medium">Posts by {person.data.name}</h2>
+    {
+      personPosts.length > 0 ? (
+        <ul class="flex flex-col gap-4">
+          {personPosts
+            .filter((post) => !post.data.draft)
+            .map((post) => (
+              <li>
+                <BlogCard entry={post} />
+              </li>
+            ))}
+        </ul>
+      ) : (
+        <p class="text-muted-foreground">
+          No posts available from this person.
+        </p>
+      )
+    }
+  </section>
+</Layout>

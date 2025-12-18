@@ -1,0 +1,27 @@
+---
+import PersonCard from '@/components/PersonCard.astro'
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+import PageHead from '@/components/PageHead.astro'
+import Layout from '@/layouts/Layout.astro'
+import { getAllPeople } from '@/lib/data-utils'
+
+const people = await getAllPeople()
+---
+
+<Layout class="max-w-3xl">
+  <PageHead slot="head" title="People" />
+  <Breadcrumbs items={[{ label: 'People', icon: 'lucide:users' }]} />
+  {
+    people.length > 0 ? (
+      <ul class="flex flex-col gap-4">
+        {people.map((person) => (
+          <li>
+            <PersonCard person={person} />
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="text-muted-foreground text-center">No people found.</p>
+    )
+  }
+</Layout>

@@ -6,7 +6,7 @@ import {
   getCombinedReadingTime,
   getSubpostCount,
   isSubpost,
-  parseAuthors,
+  parsePeople,
 } from '@/lib/data-utils'
 import { formatDate } from '@/lib/utils'
 import { Icon } from 'astro-icon/components'
@@ -21,7 +21,7 @@ interface Props {
 const { entry } = Astro.props
 const formattedDate = formatDate(entry.data.date)
 const readTime = await getCombinedReadingTime(entry.id)
-const authors = await parseAuthors(entry.data.authors ?? [])
+const authors = await parsePeople(entry.data.authors ?? [])
 const subpostCount = !isSubpost(entry.id) ? await getSubpostCount(entry.id) : 0
 ---
 

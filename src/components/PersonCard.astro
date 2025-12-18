@@ -7,20 +7,20 @@ import type { CollectionEntry } from 'astro:content'
 import SocialIcons from './SocialIcons.astro'
 
 interface Props {
-  author: CollectionEntry<'authors'>
+  person: CollectionEntry<'people'>
 }
 
-const { author } = Astro.props
-const { name, avatar, bio, pronouns } = author.data
+const { person } = Astro.props
+const { name, avatar, bio, pronouns } = person.data
 const currentPath = Astro.url.pathname
-const isAuthorPage = currentPath === `/authors/${author.id}`
+const isPersonPage = currentPath === `/people/${person.id}`
 
 const socialLinks: SocialLink[] = [
-  author.data.website && { href: author.data.website, label: 'Website' },
-  author.data.github && { href: author.data.github, label: 'GitHub' },
-  author.data.twitter && { href: author.data.twitter, label: 'Twitter' },
-  author.data.linkedin && { href: author.data.linkedin, label: 'LinkedIn' },
-  author.data.mail && { href: `mailto:${author.data.mail}`, label: 'Email' },
+  person.data.website && { href: person.data.website, label: 'Website' },
+  person.data.github && { href: person.data.github, label: 'GitHub' },
+  person.data.twitter && { href: person.data.twitter, label: 'Twitter' },
+  person.data.linkedin && { href: person.data.linkedin, label: 'LinkedIn' },
+  person.data.mail && { href: `mailto:${person.data.mail}`, label: 'Email' },
 ].filter(Boolean) as SocialLink[]
 ---
 
@@ -29,8 +29,8 @@ const socialLinks: SocialLink[] = [
 >
   <div class="flex flex-wrap gap-4">
     <Link
-      href={`/authors/${author.id}`}
-      class={cn('block', isAuthorPage && 'pointer-events-none')}
+      href={`/people/${person.id}`}
+      class={cn('block', isPersonPage && 'pointer-events-none')}
     >
       <AvatarComponent
         client:load
@@ -39,7 +39,7 @@ const socialLinks: SocialLink[] = [
         fallback={name[0]}
         className={cn(
           'size-32 rounded-md [&>[data-slot="avatar-fallback"]]:rounded-md',
-          !isAuthorPage &&
+          !isPersonPage &&
             'hover:ring-primary transition-shadow duration-300 hover:cursor-pointer hover:ring-2',
         )}
       />

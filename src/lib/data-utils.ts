@@ -1,8 +1,8 @@
 import { getCollection, render, type CollectionEntry } from 'astro:content'
 import { readingTime, calculateWordCountFromHtml } from '@/lib/utils'
 
-export async function getAllAuthors(): Promise<CollectionEntry<'authors'>[]> {
-  return await getCollection('authors')
+export async function getAllPeople(): Promise<CollectionEntry<'people'>[]> {
+  return await getCollection('people')
 }
 
 export async function getAllPosts(): Promise<CollectionEntry<'blog'>[]> {
@@ -99,7 +99,7 @@ export async function getAdjacentPosts(currentId: string): Promise<{
   }
 }
 
-export async function getPostsByAuthor(
+export async function getPostsByPerson(
   authorId: string,
 ): Promise<CollectionEntry<'blog'>[]> {
   const posts = await getAllPosts()
@@ -191,19 +191,19 @@ export async function getParentPost(
   return allPosts.find((post) => post.id === parentId) || null
 }
 
-export async function parseAuthors(authorIds: string[] = []) {
-  if (!authorIds.length) return []
+export async function parsePeople(personIds: string[] = []) {
+  if (!personIds.length) return []
 
-  const allAuthors = await getAllAuthors()
-  const authorMap = new Map(allAuthors.map((author) => [author.id, author]))
+  const allPeople = await getAllPeople()
+  const personMap = new Map(allPeople.map((person) => [person.id, person]))
 
-  return authorIds.map((id) => {
-    const author = authorMap.get(id)
+  return personIds.map((id) => {
+    const person = personMap.get(id)
     return {
       id,
-      name: author?.data?.name || id,
-      avatar: author?.data?.avatar || '/static/icon-light.png',
-      isRegistered: !!author,
+      name: person?.data?.name || id,
+      avatar: person?.data?.avatar || '/static/icon-light.png',
+      isRegistered: !!person,
     }
   })
 }
