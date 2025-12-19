@@ -34,7 +34,7 @@ const authors = await parsePeople(entry.data.authors ?? [])
   >
     {
       entry.data.image && (
-        <div class="w-full sm:max-w-3xs sm:shrink-0">
+        <div class="lg:max-w-48 sm:max-w-3xs sm:shrink-0">
           <Image
             src={entry.data.image}
             alt={entry.data.title}
