@@ -39,7 +39,7 @@ export async function getStaticPaths() {
 const post = Astro.props
 const currentPostId = Astro.params.id
 const { Content, headings } = await render(post)
-const authors = await parsePeople(post.data.authors ?? [])
+const authors = await parsePeople(post.data.people ?? [])
 
 const isCurrentSubpost = isSubpost(currentPostId)
 const navigation = await getAdjacentPosts(currentPostId)
@@ -210,11 +210,6 @@ const tocSections = await getTOCSections(currentPostId)
         </div>
       </div>
 
-      <PostNavigation
-        newerPost={navigation.newer}
-        olderPost={navigation.older}
-        parentPost={isCurrentSubpost ? navigation.parent : undefined}
-      />
     </section>
 
     {

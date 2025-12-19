@@ -1,5 +1,5 @@
 ---
-name: "Paul Pu Liang"
+name: "Paul Liang"
 title: "Faculty"
 avatar: "https://dam-prod.media.mit.edu/thumb/2024/10/02/paul-liang-headshot.jpg.800x800.jpg"
 scholar: "https://scholar.google.com/citations?hl=en&user=pKf5LtQAAAAJ"

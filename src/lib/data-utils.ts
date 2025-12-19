@@ -8,7 +8,7 @@ export async function getAllPeople(): Promise<CollectionEntry<'people'>[]> {
 export async function getAllPosts(): Promise<CollectionEntry<'blog'>[]> {
   const posts = await getCollection('blog')
   return posts
-    .filter((post) => !post.data.draft && !isSubpost(post.id))
+    .filter((post) => !isSubpost(post.id))
     .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
 }
 
@@ -16,9 +16,7 @@ export async function getAllPostsAndSubposts(): Promise<
   CollectionEntry<'blog'>[]
 > {
   const posts = await getCollection('blog')
-  return posts
-    .filter((post) => !post.data.draft)
-    .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  return posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
 }
 
 export async function getAllProjects(): Promise<CollectionEntry<'projects'>[]> {
@@ -54,12 +52,7 @@ export async function getAdjacentPosts(currentId: string): Promise<{
 
     const posts = await getCollection('blog')
     const subposts = posts
-      .filter(
-        (post) =>
-          isSubpost(post.id) &&
-          getParentId(post.id) === parentId &&
-          !post.data.draft,
-      )
+      .filter((post) => isSubpost(post.id) && getParentId(post.id) === parentId)
       .sort((a, b) => {
         const dateDiff = a.data.date.valueOf() - b.data.date.valueOf()
         if (dateDiff !== 0) return dateDiff
@@ -100,10 +93,10 @@ export async function getAdjacentPosts(currentId: string): Promise<{
 }
 
 export async function getPostsByPerson(
-  authorId: string,
+  personId: string,
 ): Promise<CollectionEntry<'blog'>[]> {
   const posts = await getAllPosts()
-  return posts.filter((post) => post.data.authors?.includes(authorId))
+  return posts.filter((post) => post.data.people?.includes(personId))
 }
 
 export async function getPostsByTag(
@@ -141,12 +134,7 @@ export async function getSubpostsForParent(
 ): Promise<CollectionEntry<'blog'>[]> {
   const posts = await getCollection('blog')
   return posts
-    .filter(
-      (post) =>
-        !post.data.draft &&
-        isSubpost(post.id) &&
-        getParentId(post.id) === parentId,
-    )
+    .filter((post) => isSubpost(post.id) && getParentId(post.id) === parentId)
     .sort((a, b) => {
       const dateDiff = a.data.date.valueOf() - b.data.date.valueOf()
       if (dateDiff !== 0) return dateDiff

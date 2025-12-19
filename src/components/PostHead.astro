@@ -13,8 +13,8 @@ const title = post.data.title || SITE.title
 const description = post.data.description || SITE.description
 const image = new URL('/static/social-preview.png', Astro.site)
 const author =
-  post.data.authors && post.data.authors.length > 0
-    ? post.data.authors.join(', ')
+  post.data.people && post.data.people.length > 0
+    ? post.data.people.join(', ')
     : SITE.author
 ---
 

@@ -46,7 +46,6 @@ const personPosts = await getPostsByPerson(person.id)
       personPosts.length > 0 ? (
         <ul class="flex flex-col gap-4">
           {personPosts
-            .filter((post) => !post.data.draft)
             .map((post) => (
               <li>
                 <BlogCard entry={post} />
