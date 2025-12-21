@@ -1,8 +1,8 @@
 ---
 name: "Megan Tjandrasuwita"
 title: "Graduate Student"
-avatar: "https://dam-prod.media.mit.edu/thumb/2025/03/27/Megan_WPhoto5_Cropped - Copy copy_YO0JlLq.JPG.800x800.jpg"
-scholar: "https://scholar.google.com/citations?user=nNYt5AcAAAAJ&hl=en&oi=ao"
+avatar: "https://megantj.github.io/images/profile.png"
+website: "https://megantj.github.io/"
 ---
 
 Megan is a third year PhD student in Computer Science at MIT CSAIL, advised by Professors Paul Liang and Armando Solar-Lezama. Her research interests include
