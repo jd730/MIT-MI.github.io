@@ -1,4 +1,4 @@
 ---
 name: "Keane Ong"
-title: "Member"
+title: "Visiting researcher"
 ---
