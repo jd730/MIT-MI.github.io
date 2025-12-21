@@ -1,4 +1,4 @@
 ---
-name: "Kai Zhou"
-title: "Research Affiliate"
+name: "Kaichen Zhou"
+title: "Postdoc"
 ---
