@@ -3,7 +3,7 @@ name: "Anku Rani"
 title: "Graduate Student"
 avatar: "https://dam-prod.media.mit.edu/thumb/2024/09/12/IMG_3635.jpeg.800x800.jpeg"
 scholar: "https://scholar.google.com/citations?user=2tu6-0UAAAAJ&hl=en"
-website: "[https://quao627.github.io/](https://sites.google.com/view/ankurani/)"
+website: "https://sites.google.com/view/ankurani/"
 ---
 
 Anku Rani is a PhD student in the Multisensory Intelligence group at MIT Media Lab, investigating machine learning models for video generation along with projects in the intersection of NLP and HCI. Her research is supported by the MIT Tata Fellowship.  She previously conducted research at Adobe Research on multimodality, mathematical reasoning, and attribution. At the University of South Carolina's Artificial Intelligence Institute, her research focused on fact verification.
