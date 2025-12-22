@@ -1,0 +1,57 @@
+---
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+import Link from '@/components/Link.astro'
+import PageHead from '@/components/PageHead.astro'
+import Layout from '@/layouts/Layout.astro'
+import { Image } from 'astro:assets'
+import { getCollection } from 'astro:content'
+const publications = await getCollection('publications')
+---
+
+<Layout class="max-w-5xl">
+  <PageHead slot="head" title="Publications" />
+  <Breadcrumbs items={[{ label: 'Publications', icon: 'lucide:book' }]} />
+  {
+    publications.map((publication) => (
+      <Link href={publication.data.link} external>
+        <div class="hover:ring-primary bg-background flex flex-row gap-2 rounded-xl border p-4 transition-shadow duration-300 ease-in-out hover:cursor-pointer hover:ring-2">
+          {publication.data.image ? (
+            <Image
+              src={publication.data.image}
+              alt={publication.data.title}
+              height={100}
+              width={200}
+              class="w-1/4 object-cover"
+            />
+          ) : (
+            <img
+              src="/static/social-preview.png"
+              alt={publication.data.title}
+              height={100}
+              width={200}
+              class="w-1/4 object-cover"
+            />
+          )}
+          <div class="flex w-1/2 flex-col gap-1">
+            <p class="text-lg font-medium">{publication.data.title}</p>
+            <p class="text-muted-foreground text-sm">
+              {publication.data.authors.join(', ')}
+            </p>
+          </div>
+          <div class="flex flex-1 flex-col gap-1 text-right">
+            <p class="text-lg font-bold">{publication.data.journal}</p>
+            {publication.data.annotation && (
+              <p class="text-sm text-red-500">{publication.data.annotation}</p>
+            )}
+            <p class="text-muted-foreground text-sm italic">
+              {publication.data.date.toLocaleDateString('en-US', {
+                month: 'short',
+                year: 'numeric',
+              })}
+            </p>
+          </div>
+        </div>
+      </Link>
+    ))
+  }
+</Layout>

@@ -1,0 +1,264 @@
+opentouch: 
+  title: "OPENTOUCH: Bringing Full-Hand Touch to Real-World Interaction"
+  date: 2025-12-18
+  authors:
+    - Yuxin Ray Song
+    - Jinzhou Li
+    - Rao Fu
+    - Devin Murphy
+    - Kaichen Zhou
+    - Rishi Shiv
+    - Yaqi Li
+    - Haoyu Xiong
+    - Crystal Elaine Owens
+    - Yilun Du
+    - Yiyue Luo
+    - Xianyi Cheng
+    - Antonio Torralba
+    - Wojciech Matusik
+    - Paul Pu Liang
+  journal: arXiv preprint
+  link: https://arxiv.org/pdf/2512.16842
+multimodal-fusion-balancing:
+  title: "Multimodal Fusion Balancing Through Game-Theoretic Regularization"
+  date: 2025-11
+  authors: 
+  - Konstantinos Kontras
+  - Thomas Strypsteen
+  - Christos Chatzichristos
+  - Paul Pu Liang
+  - Matthew Blaschko
+  - Maarten De Vos
+  journal: "NeurIPS 2025"
+  link: https://arxiv.org/pdf/2411.07335
+what-one-cannot-two-can:
+  title: "What One Cannot, Two Can: Two-Layer Transformers Provably Represent Induction Heads on Any-Order Markov Chains"
+  date: 2025-11
+  authors: 
+  - Chanakya Ekbote
+  - Marco Bondaschi
+  - Nived Rajaraman
+  - Jason D Lee
+  - Michael Gastpar
+  - Ashok Vardhan Makkuva
+  - Paul Pu Liang
+  journal: "NeurIPS 2025"
+  link: https://arxiv.org/pdf/2508.07208
+  annotation: "(spotlight)"
+  image: "./images/what-one-cannot.png"
+qoq-med:
+  title: "QoQ-Med: Building Multimodal Clinical Foundation Models with Domain-Aware GRPO Training"
+  date: 2025-11
+  authors: 
+  - Wei Dai
+  - Peilin Chen
+  - Chanakya Ekbote
+  - Paul Pu Liang
+  journal: "NeurIPS 2025"
+  link: https://arxiv.org/pdf/2506.00711
+  annotation: "(oral)"
+  image: "./images/qoqmed.png"
+mimeqa:
+  title: "MimeQA: Towards socially-intelligent nonverbal foundation models"
+  date: 2025-11
+  authors: 
+  - Hengzhi Li
+  - Megan Tjandrasuwita
+  - Yi R Fung
+  - Armando Solar-Lezama
+  - Paul Pu Liang
+  journal: "NeurIPS 2025"
+  link: https://arxiv.org/pdf/2502.16671
+  image: "./images/mimeqa.gif"
+fairgrpo:
+  title: "FairGRPO: Towards Fair Reasoning Foundation Models for Clinical Diagnosis"
+  date: 2025-10-20
+  authors: 
+  - Shiqi Dai
+  - Wei Dai
+  - Jiaee Cheong
+  - Paul Pu Liang
+  journal: "NeurIPS 2025 Workshop"
+  link: https://openreview.net/pdf?id=D0SgzgdBjo
+page-4d:
+  title: "Page-4d: Disentangled pose and geometry estimation for 4d perception"
+  date: 2025-10-20
+  authors: 
+  - Kaichen Zhou
+  - Yuhan Wang
+  - Grace Chen
+  - Xinhai Chang
+  - Gaspard Beaudouin
+  - Fangneng Zhan
+  - Paul Pu Liang
+  - Mengyu Wang
+  journal: "arXiv preprint"
+  link: https://arxiv.org/pdf/2510.17568
+human-behavior-atlas:
+  title: "Human behavior atlas: Benchmarking unified psychological and social behavior understanding"
+  date: 2025-10-06
+  authors: 
+  - Keane Ong
+  - Wei Dai
+  - Carol Li
+  - Dewei Feng
+  - Hengzhi Li
+  - Jingyao Wu
+  - Jiaee Cheong
+  - Rui Mao
+  - Gianmarco Mengaldo
+  - Erik Cambria
+  - Paul Pu Liang
+  journal: "arXiv preprint"
+  link: https://arxiv.org/pdf/2510.04899?
+dialogues-with-ai:
+  title: "Dialogues with AI Reduce Beliefs in Misinformation but Build No Lasting Discernment Skills"
+  date: 2025-10-02
+  authors: 
+  - Anku Rani
+  - Valdemar Danry
+  - Paul Pu Liang
+  - Andrew B Lippman
+  - Pattie Maes
+  journal: "arXiv preprint"
+  link: https://arxiv.org/pdf/2510.01537
+radar:
+  title: "RADAR: A Reasoning-Guided Attribution Framework for Explainable Visual Data Analysis"
+  date: 2025-08-23
+  authors: 
+  - Anku Rani
+  - Aparna Garimella
+  - Apoorv Saxena
+  - Balaji Vasan Srinivasan
+  - Paul Pu Liang
+  journal: "arXiv preprint"
+  link: https://arxiv.org/pdf/2508.16850?
+learn-globally-speak-locally:
+  title: "Learn globally, speak locally: Bridging the gaps in multilingual reasoning"
+  date: 2025-07-07
+  authors: 
+  - Jaedong Hwang
+  - Kumar Tanmay
+  - Seok-Jin Lee
+  - Ayush Agrawal
+  - Hamid Palangi
+  - Kumar Ayush
+  - Ila Fiete
+  - Paul Pu Liang
+  journal: "arXiv preprint"
+  link: https://arxiv.org/pdf/2507.05418
+climb:
+  title: "CLIMB: Data Foundations for Large Scale Multimodal Clinical Foundation Models"
+  date: 2025-07
+  authors: 
+  - Wei Dai
+  - Peilin Chen
+  - Malinda Lu
+  - Daniel Li
+  - Haowen Wei
+  - Hejie Cui
+  - Paul Pu Liang
+  journal: "ICML 2025"
+  link: https://arxiv.org/pdf/2503.07667
+  image: "./images/climb.png"
+understanding-the-emergence-of-multimodal-representation-alignment:
+  title: "Understanding the emergence of multimodal representation alignment"
+  date: 2025-07
+  authors: 
+  - Megan Tjandrasuwita
+  - Chanakya Ekbote
+  - Liu Ziyin
+  - Paul Pu Liang
+  journal: "ICML 2025"
+  link: https://arxiv.org/pdf/2502.16282?
+  image: "./images/understanding-alignment.png"
+mem1:
+  title: "MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents"
+  date: 2025-06-18
+  authors: 
+  - Zijian Zhou
+  - Ao Qu
+  - Zhaoxuan Wu
+  - Sunghwan Kim
+  - Alok Prakash
+  - Daniela Rus
+  - Jinhua Zhao
+  - Bryan Kian Hsiang Low
+  - Paul Pu Liang
+  journal: "arXiv preprint"
+  link: https://arxiv.org/pdf/2506.15841
+  image: "./images/mem1.gif"
+position-simulating-society:
+  title: "Position: Simulating Society Requires Simulating Thought"
+  date: 2025-06-08
+  authors: 
+  - Chance Jiajie Li
+  - Jiayi Wu
+  - Zhenze Mo
+  - Ao Qu
+  - Yuhan Tang
+  - Kaiya Ivy Zhao
+  - Yulu Gan
+  - Jie Fan
+  - Jiangbo Yu
+  - Jinhua Zhao
+  - Paul Pu Liang
+  - Luis Alonso
+  - Kent Larson
+  journal: NeurIPS 2025
+  link: https://arxiv.org/pdf/2506.06958
+puzzleworld:
+  title: "PuzzleWorld: A Benchmark for Multimodal, Open-Ended Reasoning in Puzzlehunts"
+  date: 2025-06-06
+  authors: 
+  - Hengzhi Li
+  - Brendon Jiang
+  - Alexander Naehu
+  - Regan Song
+  - Justin Zhang
+  - Megan Tjandrasuwita
+  - Chanakya Ekbote
+  - Steven-Shine Chen
+  - Adithya Balachandran
+  - Wei Dai
+  - Rebecca Chang
+  - Paul Pu Liang
+  journal: "arXiv preprint"
+  link: https://arxiv.org/pdf/2506.06211?
+  image: "./images/puzzleworld.png"
+smellnet:
+  title: "SMELLNET: A Large-scale Dataset for Real-world Smell Recognition"
+  date: 2025-05-30
+  authors: 
+  - Dewei Feng
+  - Carol Li
+  - Wei Dai
+  - Paul Pu Liang
+  journal: "arXiv preprint"
+  link: https://arxiv.org/pdf/2506.00239?
+  image: "./images/smellnet.gif"
+interactive-sketchpad:
+  title: "Interactive Sketchpad: A Multimodal Tutoring System for Collaborative, Visual Problem-Solving"
+  date: 2025-04-26
+  authors: 
+  - Steven-Shine Chen
+  - Jimin Lee
+  - Paul Pu Liang
+  journal: "CHI Conference on Human Factors in Computing Systems"
+  link: https://arxiv.org/pdf/2503.16434?
+  image: "./images/sketchpad.gif"
+fits-like-a-flex-glove:
+  title: "Fits like a Flex-Glove: Automatic Design of Personalized FPCB-Based Tactile Sensing Gloves"
+  date: 2025-04-26
+  authors: 
+  - Devin Murphy
+  - Yichen Li
+  - Crystal Owens
+  - Layla Stanton
+  - Young Joong Lee
+  - Paul Pu Liang
+  - Yiyue Luo
+  - Antonio Torralba
+  - Wojciech Matusik
+  journal: "CHI Conference on Human Factors in Computing Systems"
+  link: https://arxiv.org/pdf/2503.06349
