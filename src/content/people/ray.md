@@ -1,6 +1,6 @@
 ---
 name: "Ray Song"
-title: "Graduate Student"
+title: "Graduate student"
 avatar: "https://dam-prod.media.mit.edu/thumb/2025/09/05/ray_ml_2025_edited.jpg.800x800.jpg"
 website: "https://rayxsong.com/"
 ---
