@@ -17,7 +17,7 @@ opentouch:
     - Antonio Torralba
     - Wojciech Matusik
     - Paul Pu Liang
-  journal: arXiv preprint
+  journal: "arXiv preprint"
   link: https://arxiv.org/pdf/2512.16842
 
 qoq-med:
@@ -103,7 +103,7 @@ position-simulating-society:
   - Paul Pu Liang
   - Luis Alonso
   - Kent Larson
-  journal: NeurIPS 2025
+  journal: "NeurIPS 2025"
   link: https://arxiv.org/pdf/2506.06958
 
 fairgrpo:
