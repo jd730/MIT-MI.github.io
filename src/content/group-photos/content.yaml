@@ -1,0 +1,6 @@
+dome:
+  image: "./images/dome.jpg"
+  caption: "Group photo at the MIT Dome"
+replace_me:
+  image: "./images/replace_me.png"
+  caption: "Group logo"

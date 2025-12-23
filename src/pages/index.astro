@@ -8,10 +8,13 @@ import { buttonVariants } from '@/components/ui/button'
 import { SITE } from '@/consts'
 import Layout from '@/layouts/Layout.astro'
 import { getAllPeople, getAllProjects, getRecentPosts } from '@/lib/data-utils'
+import ImageCarousel from '@/components/ui/image-carousel'
+import { getCollection } from 'astro:content'
 
 const blog = await getRecentPosts(SITE.featuredPostCount)
 const people = await getAllPeople()
 const projects = await getAllProjects()
+const groupPhotos = await getCollection('groupPhotos')
 ---
 
 <Layout class="lg:overflow-hidden lg:-m-1 py-1">
@@ -25,6 +28,7 @@ const projects = await getAllProjects()
             Multisensory Intelligence Group
           </h3>
         </div>
+        <ImageCarousel client:load images={groupPhotos} />
         <div class="flex flex-col gap-2">
           <p class="text-muted-foreground text-md">
             We study the foundations of <span class="text-foreground font-bold"
