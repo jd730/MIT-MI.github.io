@@ -250,7 +250,7 @@ puzzleworld:
   - Rebecca Chang
   - Paul Pu Liang
   journal: "arXiv preprint"
-  link: https://arxiv.org/pdf/2506.06211?
+  link: https://arxiv.org/pdf/2506.06211
   image: "./images/puzzleworld.png"
 
 smellnet:
@@ -262,7 +262,7 @@ smellnet:
   - Wei Dai
   - Paul Pu Liang
   journal: "arXiv preprint"
-  link: https://arxiv.org/pdf/2506.00239?
+  link: https://arxiv.org/pdf/2506.00239
   image: "./images/smellnet.gif"
 
 interactive-sketchpad:
@@ -273,7 +273,7 @@ interactive-sketchpad:
   - Jimin Lee
   - Paul Pu Liang
   journal: "CHI 2025 Late-Breaking Work"
-  link: https://arxiv.org/pdf/2503.16434?
+  link: https://arxiv.org/pdf/2503.16434
   image: "./images/sketchpad.gif"
 
 fits-like-a-flex-glove:
