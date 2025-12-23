@@ -254,7 +254,7 @@ puzzleworld:
   image: "./images/puzzleworld.png"
 
 smellnet:
-  title: "SMELLNET: A Large-scale Dataset for Real-world Smell Recognition"
+  title: "SmellNet: A Large-scale Dataset for Real-world Smell Recognition"
   date: 2025-05-30
   authors: 
   - Dewei Feng
