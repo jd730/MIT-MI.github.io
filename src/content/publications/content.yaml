@@ -22,7 +22,7 @@ opentouch:
 
 qoq-med:
   title: "QoQ-Med: Building Multimodal Clinical Foundation Models with Domain-Aware GRPO Training"
-  date: 2025-11
+  date: 2025-12
   authors: 
   - Wei Dai
   - Peilin Chen
@@ -35,8 +35,8 @@ qoq-med:
   
 what-one-cannot-two-can:
   title: "What One Cannot, Two Can: Two-Layer Transformers Provably Represent Induction Heads on Any-Order Markov Chains"
-  date: 2025-11
-  authors: 
+  date: 2025-12
+  authors:
   - Chanakya Ekbote
   - Marco Bondaschi
   - Nived Rajaraman
@@ -51,7 +51,7 @@ what-one-cannot-two-can:
 
 mimeqa:
   title: "MimeQA: Towards socially-intelligent nonverbal foundation models"
-  date: 2025-11
+  date: 2025-12
   authors: 
   - Hengzhi Li
   - Megan Tjandrasuwita
@@ -62,9 +62,20 @@ mimeqa:
   link: https://arxiv.org/pdf/2502.16671
   image: "./images/mimeqa.gif"
 
+pid:
+  title: "Partial Information Decomposition via Normalizing Flows in Latent Gaussian Distributions"
+  date: 2025-12
+  authors:
+  - Wenyuan Zhao
+  - Adithya Balachandran
+  - Chao Tian
+  - Paul Pu Liang
+  journal: "NeurIPS 2025"
+  link: https://arxiv.org/abs/2510.04417
+  
 multimodal-fusion-balancing:
   title: "Multimodal Fusion Balancing Through Game-Theoretic Regularization"
-  date: 2025-11
+  date: 2025-12
   authors: 
   - Konstantinos Kontras
   - Thomas Strypsteen
@@ -75,15 +86,35 @@ multimodal-fusion-balancing:
   journal: "NeurIPS 2025"
   link: https://arxiv.org/pdf/2411.07335
 
+position-simulating-society:
+  title: "Position: Simulating Society Requires Simulating Thought"
+  date: 2025-12
+  authors: 
+  - Chance Jiajie Li
+  - Jiayi Wu
+  - Zhenze Mo
+  - Ao Qu
+  - Yuhan Tang
+  - Kaiya Ivy Zhao
+  - Yulu Gan
+  - Jie Fan
+  - Jiangbo Yu
+  - Jinhua Zhao
+  - Paul Pu Liang
+  - Luis Alonso
+  - Kent Larson
+  journal: NeurIPS 2025
+  link: https://arxiv.org/pdf/2506.06958
+
 fairgrpo:
   title: "FairGRPO: Towards Fair Reasoning Foundation Models for Clinical Diagnosis"
-  date: 2025-10-20
+  date: 2025-12
   authors: 
   - Shiqi Dai
   - Wei Dai
   - Jiaee Cheong
   - Paul Pu Liang
-  journal: "NeurIPS 2025 Workshop"
+  journal: "arXiv preprint"
   link: https://openreview.net/pdf?id=D0SgzgdBjo
   
 page-4d:
@@ -202,26 +233,6 @@ mem1:
   link: https://arxiv.org/pdf/2506.15841
   image: "./images/mem1.gif"
 
-position-simulating-society:
-  title: "Position: Simulating Society Requires Simulating Thought"
-  date: 2025-06-08
-  authors: 
-  - Chance Jiajie Li
-  - Jiayi Wu
-  - Zhenze Mo
-  - Ao Qu
-  - Yuhan Tang
-  - Kaiya Ivy Zhao
-  - Yulu Gan
-  - Jie Fan
-  - Jiangbo Yu
-  - Jinhua Zhao
-  - Paul Pu Liang
-  - Luis Alonso
-  - Kent Larson
-  journal: NeurIPS 2025
-  link: https://arxiv.org/pdf/2506.06958
-
 puzzleworld:
   title: "PuzzleWorld: A Benchmark for Multimodal, Open-Ended Reasoning in Puzzlehunts"
   date: 2025-06-06
@@ -280,3 +291,76 @@ fits-like-a-flex-glove:
   - Wojciech Matusik
   journal: "CHI 2025 Late-Breaking Work"
   link: https://arxiv.org/pdf/2503.06349
+
+compositionality:
+  title: Progressive Compositionality In Text-to-Image Generative Models
+  date: 2025-04
+  authors:
+  - Evans Han
+  - Linghao Jin
+  - Xiaofeng Liu
+  - Paul Pu Liang
+  journal: "ICLR 2025"
+  annotation: "(spotlight)"
+  link: "https://arxiv.org/abs/2410.16719"
+  image: 
+
+osatlas:
+  title: OS-ATLAS: A Foundation Action Model for Generalist GUI Agents
+  date: 2025-04
+  authors:
+  - Zhiyong Wu
+  - Zhenyu Wu
+  - Fangzhi Xu
+  - Yian Wang
+  - Qiushi Sun
+  - Chengyou Jia
+  - Kanzhi Cheng
+  - Zichen Ding
+  - Liheng Chen
+  - Paul Pu Liang
+  - Yu Qiao
+  journal: "ICLR 2025"
+  annotation: "(spotlight)"
+  link: "https://arxiv.org/abs/2410.23218"
+  image:
+
+videowebarena:
+  title: VideoWebArena: Evaluating Long Context Multimodal Agents with Video Understanding Web Tasks
+  date:
+  authors:
+  - Lawrence Jang
+  - Yinheng Li
+  - Charles Ding
+  - Justin Lin
+  - Paul Pu Liang
+  - Dan Zhao
+  - Rogerio Bonatti
+  - Kazuhito Koishida
+  journal: "ICLR 2025"
+  link: "https://arxiv.org/abs/2410.19100"
+  image: 
+
+teasergen:
+  title: TeaserGen: Generating Teasers for Long Documentaries
+  date: 2025-04
+  authors:
+  - Weihan Xu
+  - Paul Pu Liang
+  - Haven Kim
+  - Julian McAuley
+  - Taylor Berg-Kirkpatrick
+  - Hao-Wen Dong
+  journal: "ICLR 2025"
+  link: "https://arxiv.org/abs/2410.05586"
+  image: 
+
+bigbench:
+  title: Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models
+  date: 2025-04
+  authors:
+  - 442 authors including Paul Pu Liang
+  journal: "ICLR 2025, TMLR 2023"
+  annotation: "(finalist for outstanding certification)"
+  link: "https://openreview.net/forum?id=uyTL5Bvosj"
+  image: 
