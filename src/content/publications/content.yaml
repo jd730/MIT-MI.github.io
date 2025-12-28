@@ -50,6 +50,21 @@ what-one-cannot-two-can:
   annotation: "(spotlight)"
   image: "./images/what-one-cannot.png"
 
+multimodal-fusion-balancing:
+  title: "Multimodal Fusion Balancing Through Game-Theoretic Regularization"
+  date: 2025-12
+  authors: 
+  - Konstantinos Kontras
+  - Thomas Strypsteen
+  - Christos Chatzichristos
+  - Paul Pu Liang
+  - Matthew Blaschko
+  - Maarten De Vos
+  journal: "NeurIPS 2025"
+  annotation: "(spotlight)"
+  link: https://arxiv.org/pdf/2411.07335
+  image: "./images/fusiongame.png"
+
 mimeqa:
   title: "MimeQA: Towards socially-intelligent nonverbal foundation models"
   date: 2025-12
@@ -73,20 +88,7 @@ pid:
   - Paul Pu Liang
   journal: "NeurIPS 2025"
   link: https://arxiv.org/abs/2510.04417
-  
-multimodal-fusion-balancing:
-  title: "Multimodal Fusion Balancing Through Game-Theoretic Regularization"
-  date: 2025-12
-  authors: 
-  - Konstantinos Kontras
-  - Thomas Strypsteen
-  - Christos Chatzichristos
-  - Paul Pu Liang
-  - Matthew Blaschko
-  - Maarten De Vos
-  journal: "NeurIPS 2025"
-  annotation: "(spotlight)"
-  link: https://arxiv.org/pdf/2411.07335
+  image: "./images/thinpid.png"
 
 position-simulating-society:
   title: "Position: Simulating Society Requires Simulating Thought"
@@ -107,6 +109,7 @@ position-simulating-society:
   - Kent Larson
   journal: "NeurIPS 2025"
   link: https://arxiv.org/pdf/2506.06958
+  image: "./images/simulatesociety.png"
 
 fairgrpo:
   title: "FairGRPO: Towards Fair Reasoning Foundation Models for Clinical Diagnosis"
@@ -118,6 +121,7 @@ fairgrpo:
   - Paul Pu Liang
   journal: "arXiv preprint"
   link: https://openreview.net/pdf?id=D0SgzgdBjo
+  image: "./images/fairgrpo.png"
   
 page-4d:
   title: "Page-4D: Disentangled Pose and Geometry Estimation for 4D Perception"
@@ -133,6 +137,7 @@ page-4d:
   - Mengyu Wang
   journal: "arXiv preprint"
   link: https://arxiv.org/pdf/2510.17568
+  image: "./images/page4d.gif"
 
 human-behavior-atlas:
   title: "Human Behavior Atlas: Benchmarking Unified Psychological and Social Behavior Understanding"
@@ -151,6 +156,7 @@ human-behavior-atlas:
   - Paul Pu Liang
   journal: "arXiv preprint"
   link: https://arxiv.org/pdf/2510.04899
+  image: "./images/hba.png"
 
 dialogues-with-ai:
   title: "Dialogues with AI Reduce Beliefs in Misinformation but Build No Lasting Discernment Skills"
@@ -163,6 +169,7 @@ dialogues-with-ai:
   - Pattie Maes
   journal: "arXiv preprint"
   link: https://arxiv.org/pdf/2510.01537
+  image: "./images/dialog.png"
 
 radar:
   title: "RADAR: A Reasoning-Guided Attribution Framework for Explainable Visual Data Analysis"
@@ -175,6 +182,7 @@ radar:
   - Paul Pu Liang
   journal: "arXiv preprint"
   link: https://arxiv.org/pdf/2508.16850
+  image: "./images/radar.png"
 
 learn-globally-speak-locally:
   title: "Learn Globally, Speak Locally: Bridging the Gaps in Multilingual Reasoning"
@@ -190,6 +198,7 @@ learn-globally-speak-locally:
   - Paul Pu Liang
   journal: "arXiv preprint"
   link: https://arxiv.org/pdf/2507.05418
+  image: "./images/multilingualreasoning.png"
 
 climb:
   title: "CLIMB: Data Foundations for Large Scale Multimodal Clinical Foundation Models"
@@ -293,6 +302,7 @@ fits-like-a-flex-glove:
   - Wojciech Matusik
   journal: "CHI 2025 Late-Breaking Work"
   link: https://arxiv.org/pdf/2503.06349
+  image: "./images/glove.png"
 
 compositionality:
   title: "Progressive Compositionality In Text-to-Image Generative Models"
@@ -305,6 +315,7 @@ compositionality:
   journal: "ICLR 2025"
   annotation: "(spotlight)"
   link: https://arxiv.org/abs/2410.16719
+  image: "./images/evogen.gif"
 
 osatlas:
   title: "OS-ATLAS: A Foundation Action Model for Generalist GUI Agents"
@@ -324,6 +335,7 @@ osatlas:
   journal: "ICLR 2025"
   annotation: "(spotlight)"
   link: https://arxiv.org/abs/2410.23218
+  image: "./images/osatlas.png"
 
 videowebarena:
   title: "VideoWebArena: Evaluating Long Context Multimodal Agents with Video Understanding Web Tasks"
@@ -339,6 +351,7 @@ videowebarena:
   - Kazuhito Koishida
   journal: "ICLR 2025"
   link: https://arxiv.org/abs/2410.19100
+  image: "./images/videowebarena.png"
 
 teasergen:
   title: "TeaserGen: Generating Teasers for Long Documentaries"
@@ -352,6 +365,7 @@ teasergen:
   - Hao-Wen Dong
   journal: "ICLR 2025"
   link: https://arxiv.org/abs/2410.05586
+  image: "./images/teasergen.png"
 
 bigbench:
   title: "Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models"
@@ -361,3 +375,4 @@ bigbench:
   journal: "ICLR 2025, TMLR 2023"
   annotation: "(finalist for outstanding certification)"
   link: https://openreview.net/forum?id=uyTL5Bvosj
+  image: "./images/bigbench.png"
