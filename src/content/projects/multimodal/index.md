@@ -2,7 +2,7 @@
 name: "Multisensory Foundation Models, Reasoning, and Agents"
 description: "Large language and foundation models grounded in real-world sensory modalities for open-ended prediction, question answering, reasoning, multi-turn interaction, and rapid generalization to new problem settings."
 tags: []
-people: [ao, alexw, chanakya, david, lucy]
+people: [ao, alexw, chanakya, lucy, david]
 image: "./cover.png"
 ---
 
@@ -16,15 +16,15 @@ Key works:
 
 [MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents, arXiv 2025](https://arxiv.org/abs/2506.15841)
 
-[QoQ-Med: Building Multimodal Clinical Foundation Models with Domain-Aware GRPO Training, NeurIPS 2025 oral](https://arxiv.org/abs/2506.00711)
-
 [PuzzleWorld: A Benchmark for Multimodal, Open-Ended Reasoning in Puzzlehunts, arXiv 2025](https://arxiv.org/abs/2506.06211)
-
-[Interactive Sketchpad: An Interactive Multimodal System for Collaborative, Visual Problem-Solving, CHI 2025 Late Breaking Work](https://arxiv.org/abs/2503.16434)
 
 [Guiding Mixture-of-Experts with Temporal Multimodal Interactions, arXiv 2025](https://arxiv.org/abs/2509.25678)
 
 [MINT: Multimodal Instruction Tuning with Multimodal Interaction Grouping, arXiv 2025](https://arxiv.org/abs/2506.02308)
+
+[QoQ-Med: Building Multimodal Clinical Foundation Models with Domain-Aware GRPO Training, NeurIPS 2025 oral](https://arxiv.org/abs/2506.00711)
+
+[Interactive Sketchpad: An Interactive Multimodal System for Collaborative, Visual Problem-Solving, CHI 2025 Late Breaking Work](https://arxiv.org/abs/2503.16434)
 
 [Progressive Compositionality in Text-to-Image Generative Models, ICLR 2025 spotlight](https://arxiv.org/abs/2410.16719)
 
