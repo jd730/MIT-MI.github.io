@@ -3,7 +3,6 @@ name: "AI for Holistic Health and Wellness"
 description: "Developing technologies to assist medical professionals in decision-making, and helping patients track and improve their overall physical, emotional, and social wellbeing from clinical indicators of health and regular measures of wellness."
 tags: []
 people: [david, jaedong, anku]
-image: "./cover.png"
 ---
 
 AI has enabled remarkable progress in diagnosis across many clinical domains. However, existing benchmarks and models are primarily limited to medical text and imaging, which hinders the development of large-scale multimodal methods that can make holistic assessments of patient health and well-being. Our research advances the ability for AI models to unify diverse clinical data across text, imaging, video, medical and physiological sensing, longitudinal observations, and graphical networks. These technologies can assist medical professionals in accurate and efficient decision-making, while helping patients track and improve their overall physical, emotional, and social wellbeing from rich multimodal indicators.
