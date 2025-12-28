@@ -2,7 +2,7 @@
 name: "Scientific Foundations of Multisensory AI"
 description: "Developing a systematic understanding and learning of generalizable principles from multisensory data, including data heterogeneity, multimodal interactions, cross-modal generalization, and learning dynamics."
 tags: []
-people: [chanakya, megan, lucy, konstantinos, ziyin]
+people: [chanakya, lucy, megan, konstantinos, ziyin]
 image: "./cover.png"
 ---
 
