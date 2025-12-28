@@ -48,7 +48,7 @@ what-one-cannot-two-can:
   journal: "NeurIPS 2025"
   link: https://arxiv.org/pdf/2508.07208
   annotation: "(spotlight)"
-  image: "./images/what-one-cannot.png"
+  image: "./images/transformers.png"
 
 multimodal-fusion-balancing:
   title: "Multimodal Fusion Balancing Through Game-Theoretic Regularization"
@@ -198,7 +198,7 @@ learn-globally-speak-locally:
   - Paul Pu Liang
   journal: "arXiv preprint"
   link: https://arxiv.org/pdf/2507.05418
-  image: "./images/multilingualreasoning.png"
+  image: "./images/multilingual.png"
 
 climb:
   title: "CLIMB: Data Foundations for Large Scale Multimodal Clinical Foundation Models"
@@ -225,7 +225,7 @@ understanding-the-emergence-of-multimodal-representation-alignment:
   - Paul Pu Liang
   journal: "ICML 2025"
   link: https://arxiv.org/pdf/2502.16282?
-  image: "./images/understanding-alignment.png"
+  image: "./images/alignment.png"
 
 mem1:
   title: "MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents"
