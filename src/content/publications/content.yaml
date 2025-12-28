@@ -25,7 +25,7 @@ qoq-med:
   title: "QoQ-Med: Building Multimodal Clinical Foundation Models with Domain-Aware GRPO Training"
   date: 2025-12
   authors: 
-  - Wei Dai
+  - David Dai
   - Peilin Chen
   - Chanakya Ekbote
   - Paul Pu Liang
@@ -113,7 +113,7 @@ fairgrpo:
   date: 2025-12
   authors: 
   - Shiqi Dai
-  - Wei Dai
+  - David Dai
   - Jiaee Cheong
   - Paul Pu Liang
   journal: "arXiv preprint"
@@ -139,7 +139,7 @@ human-behavior-atlas:
   date: 2025-10-06
   authors: 
   - Keane Ong
-  - Wei Dai
+  - David Dai
   - Carol Li
   - Dewei Feng
   - Hengzhi Li
@@ -195,7 +195,7 @@ climb:
   title: "CLIMB: Data Foundations for Large Scale Multimodal Clinical Foundation Models"
   date: 2025-07
   authors: 
-  - Wei Dai
+  - David Dai
   - Peilin Chen
   - Malinda Lu
   - Daniel Li
@@ -248,7 +248,7 @@ puzzleworld:
   - Chanakya Ekbote
   - Steven-Shine Chen
   - Adithya Balachandran
-  - Wei Dai
+  - David Dai
   - Rebecca Chang
   - Paul Pu Liang
   journal: "arXiv preprint"
@@ -261,7 +261,7 @@ smellnet:
   authors: 
   - Dewei Feng
   - Carol Li
-  - Wei Dai
+  - David Dai
   - Paul Pu Liang
   journal: "arXiv preprint"
   link: https://arxiv.org/pdf/2506.00239
