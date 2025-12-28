@@ -1,6 +1,6 @@
 ---
 name: "Multisensory Foundation Models, Reasoning, and Agents"
-description: "Large language and foundation models grounded in real-world sensory modalities for open-ended prediction, question answering, reasoning, multi-turn interaction, and rapid generalization to new problem settings."
+description: "Large foundation models grounded in real-world sensory modalities for open-ended prediction, question answering, reasoning, multi-turn interaction, and rapid generalization to new settings."
 tags: []
 people: [ao, alexw, chanakya, lucy, david]
 image: "./cover.png"
