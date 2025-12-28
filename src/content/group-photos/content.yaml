@@ -1,6 +1,18 @@
 dome:
   image: "./images/dome.jpg"
-  caption: "Group photo at the MIT Dome"
-replace_me:
-  image: "./images/replace_me.png"
-  caption: "Group logo"
+  caption: "Group photo at the MIT Dome, 2024"
+grad25:
+  image: "./images/grad25.jpg"
+  caption: "Group photo during MIT commencement 2025"
+summer25:
+  image: "./images/summer25.jpg"
+  caption: "Group photo in summer 2025"
+icml25:
+  image: "./images/icml25.png"
+  caption: "Group lunch at ICML 2025"
+thanksgiving25:
+  image: "./images/thanksgiving25.jpg"
+  caption: "Group thanksgiving dinner, 2025"
+neurips25:
+  image: "./images/neurips25.jpg"
+  caption: "Group dinner at NeurIPS 2025"
