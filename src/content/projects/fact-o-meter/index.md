@@ -1,8 +1,8 @@
 ---
-name: "Fact-O-Meter"
-description: "Fact-O-Meter is an AI-powered conversational system designed to enhance critical discernment of visual misinformation."
+name: "Socially-intelligent AI"
+description: "Intelligent agents that can comprehend and interact with humans in long-term multi-party social situations, fostering collaboration and growth in social relationships, while maintaining privacy, safety, and fairness for trusted interaction."
 tags: []
-people: [anku, paul]
+people: [keane, anku, ao, edgar, jada]
 publication: {
     venue: "arXiv preprint",
     link: "https://arxiv.org/abs/2510.01537"
@@ -10,15 +10,24 @@ publication: {
 image: "./cover.jpg"
 ---
 
-Fact-O-Meter is an AI-powered conversational system designed to enhance critical discernment of visual misinformation. It encourages you to estimate the veracity of news content featuring images and headlines, which can be a foundation for developing more thoughtful engagement with potentially misleading media. We employ forensic image analysis, persuasive dialogue techniques, belief assessment, and reflective questioning to enhance human thinking.
+Building socially-intelligent AI is a multidisciplinary, multimodal research goal that involves creating agents that can sense, perceive, reason about, learn from, and respond to affect, behavior, and cognition of other agents (human or artificial). This goal introduces new technical challenges to AI, including (1) ambiguity in social constructs, (2) nuanced behavioral signals, (3) multiple perspectives and experiences, and (4) agency and adaptation. The social contexts in which social-AI agents can be situated are diverse, with interactions differing between social settings, degrees of agent embodiment, and social attributes of humans. A vision paper we wrote on the advances in social agents has inspired significant new directions in this field.
 
-## Abstract
-Given the growing prevalence of fake information, including increasingly realistic AI-generated news, there is an urgent need to train people to better evaluate and detect misinformation.
-While interactions with AI have been shown to durably reduce people's beliefs in false information, it is unclear whether these interactions also teach people the skills to discern false information themselves. We conducted a month-long study where 67 participants classified news headline-image pairs as real or fake, discussed their assessments with an AI system, followed by an unassisted evaluation of unseen news items to measure accuracy before, during, and after AI assistance. While AI assistance produced immediate improvements during AI-assisted sessions (+21% average), participants' unassisted performance on new items declined significantly by week 4 (-15.3%). These results indicate that while AI may help immediately, it ultimately degrades long-term misinformation detection abilities.
+Our team has pioneered several key resources for socially-intelligent AI. CMU-MOSEI remains among the largest datasets for multimodal sentiment analysis and emotion recognition to date, and has become the community standard to train AI for human multimodal language understanding. Social-IQ is a question answering benchmark for artificial social intelligence covering questions about social situations, human behaviors, mental states, traits, attitudes, and attributes. Subsequently, Social Genome curated human-annotated reasoning steps about social interactions that reference evidence from visual cues, verbal cues, vocal cues, and external knowledge, which enables fine-grained evaluation and reasoning-supervised training of socially-intelligent multimodal models. Finally, Human Behavior Atlas is our latest unified benchmark for psychological and social behavior understanding, spanning over 100,000 videos with text, audio, and visual modalities, covering tasks on affective states, cognitive states, pathologies, and social processes, and enabling unified multimodal and multitask foundation models for social intelligence.
 
-## Diagram
-![Project Diagram](./diagram.jpg)
+A key part of socially-intelligent AI is its responsible deployment, and our group actively works to quantify and mitigate real-world societal concerns around bias, fairness, and privacy, engage in participatory co-design with stakeholders, and assist in developing policies around the real-world deployment of AI foundation models.
 
-> Study overview showing the dependency paradox (where AI assistance provides immediate benefits but undermines long-term capabilities to distinguish real and fake news items without AI assistance). Participants evaluated news items before AI interaction (A), received AI assistance containing evidence with a persuasive response from AI (B), and then evaluated new news items without AI (C). While AI assistance improved immediate performance (+21%), misinformation detection skills without AI assistance on new news items declined over time (-15.3%), revealing this concerning effect.
+Key works:
 
-Please read more about the work [here](https://arxiv.org/abs/2510.01537).
+[Human Behavior Atlas: Benchmarking Unified Psychological and Social Behavior Understanding, arXiv 2025](https://arxiv.org/abs/2510.04899)
+
+[MimeQA: Towards Socially-Intelligent Nonverbal Foundation Models, NeurIPS 2025](https://arxiv.org/abs/2502.16671)
+
+[Social Genome: Grounded Social Reasoning Abilities of Multimodal Models, EMNLP 2025](https://arxiv.org/abs/2502.15109)
+
+[Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions, EMNLP 2024](https://arxiv.org/abs/2404.11023)
+
+[Towards Understanding and Mitigating Social Biases in Language Models, ICML 2021](https://arxiv.org/abs/2106.13219)
+
+[Think Locally, Act Globally: Federated Learning with Local and Global Representations, NeurIPS 2020 Workshop on Federated Learning](https://arxiv.org/abs/2001.01523)
+
+[Multimodal Language Analysis in the Wild: CMU-MOSEI Dataset and Interpretable Dynamic Fusion Graph, ACL 2018](https://aclanthology.org/P18-1208)
