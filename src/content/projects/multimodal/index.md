@@ -16,6 +16,8 @@ Key works:
 
 [MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents, arXiv 2025](https://arxiv.org/abs/2506.15841)
 
+![Alt Text](./../../publications/images/mem1.gif)
+
 [PuzzleWorld: A Benchmark for Multimodal, Open-Ended Reasoning in Puzzlehunts, arXiv 2025](https://arxiv.org/abs/2506.06211)
 
 [Guiding Mixture-of-Experts with Temporal Multimodal Interactions, arXiv 2025](https://arxiv.org/abs/2509.25678)
@@ -28,9 +30,7 @@ Key works:
 
 Interactive Sketchpad is an AI-powered tutoring system that integrates step-by-step reasoning with interactive, AI-generated visualizations, enabling students to learn math and science through shared sketch-based collaboration. Built on a large multimodal model, it demonstrates how visual reasoning and interaction can make AI tutoring more engaging, natural, and effective, pointing toward richer multimodal human–AI learning experiences.
 
-<iframe id="ytplayer" type="text/html" width="640" height="360"
-  src="https://www.youtube.com/embed/mg1lbg5Flgg"
-  frameborder="0"></iframe>
+![Alt Text](./../../publications/images/sketchpad.gif)
 
 [Progressive Compositionality in Text-to-Image Generative Models, ICLR 2025 spotlight](https://arxiv.org/abs/2410.16719)
 
