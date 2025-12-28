@@ -32,4 +32,4 @@ Mime videos isolate nonverbal communication, challenging AI to infer emotion, in
 
 [Multimodal Language Analysis in the Wild: CMU-MOSEI Dataset and Interpretable Dynamic Fusion Graph, ACL 2018](https://aclanthology.org/P18-1208)
 
-![Alt Text](./../../publications/images/mosei.gif)
+![Alt Text](./mosei.gif)
