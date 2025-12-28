@@ -3,7 +3,6 @@ name: "AI for Physical Understanding: Spatial Vision, Touch, Smell, and Taste"
 description: "Intelligent systems that monitor and learn from physical signals on our bodies, in our homes and cities, and in the climate and environment."
 tags: []
 people: [ray, kaichen, fangneng, marshall]
-image: "./cover.jpg"
 ---
 
 The next frontier of AI will need to move beyond the digital realm into the physical world. Our group is developing AI to sense, understand, and interact with physical signatures like humans can. New modalities we are exploring for spatial understanding include 3D and 4D perception (PAGE-4D), as well as the correspondences between spatial audio and video (Schrodinger Audio-Visual Editor, REGen).
