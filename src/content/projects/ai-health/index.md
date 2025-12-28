@@ -10,7 +10,11 @@ AI has enabled remarkable progress in diagnosis across many clinical domains. Ho
 
 Among our contributions are [CLIMB](https://arxiv.org/abs/2503.07667) (Clinical Large-scale Integrative Multi-modal Benchmark), one of the most comprehensive collections of clinical data ever compiled for AI research. CLIMB unifies 4.51 million patient samples spanning medical text, imaging (X-rays, CT scans), medical sensing (ECG heart rhythms), brain wave patterns, and molecular structures.
 
+![Alt Text](./climb.png)
+
 Using CLIMB, we trained [QoQ-Med](https://arxiv.org/abs/2506.00711), the first open generalist clinical foundation model that jointly reasons across medical images, time-series signals, and text reports using a new reasoning objective that better handles modality and task heterogeneity. A promising benefit of these reasoning models is their ability to explain their predictions over multiple steps, highlight salient parts of the medical image and time-series to support their conclusions, and perform differential diagnosis compared to other possible conditions that share similar symptoms.
+
+![Alt Text](./../../publications/images/qoqmed.png)
 
 We are actively collaborating with the clinical researchers at Harvard Medical School and Johns Hopkins University School of Medicine to evaluate and deploy these multimodal clinical foundation models in practice, and developing models that can remain robust across varying patient demographics and regions.
 
