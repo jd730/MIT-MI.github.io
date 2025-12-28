@@ -2,8 +2,8 @@
 name: "Socially-intelligent AI"
 description: "Intelligent agents that can comprehend and interact with humans in long-term multi-party social situations, fostering collaboration and growth in social relationships, while maintaining privacy, safety, and fairness for trusted interaction."
 tags: []
-people: [keane, anku, ao, edgar, jada]
-image: "./cover.jpg"
+people: [keane, megan, anku, ao, edgar, jada]
+image: "./cover.png"
 ---
 
 Building socially-intelligent AI is a multidisciplinary, multimodal research goal that involves creating agents that can sense, perceive, reason about, learn from, and respond to affect, behavior, and cognition of other agents (human or artificial). This goal introduces new technical challenges to AI, including (1) ambiguity in social constructs, (2) nuanced behavioral signals, (3) multiple perspectives and experiences, and (4) agency and adaptation. The social contexts in which social-AI agents can be situated are diverse, with interactions differing between social settings, degrees of agent embodiment, and social attributes of humans. A vision paper we wrote on the advances in social agents has inspired significant new directions in this field.
