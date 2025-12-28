@@ -19,6 +19,7 @@ opentouch:
     - Paul Pu Liang
   journal: "arXiv preprint"
   link: https://arxiv.org/pdf/2512.16842
+  image: "./images/opentouch.gif"
 
 qoq-med:
   title: "QoQ-Med: Building Multimodal Clinical Foundation Models with Domain-Aware GRPO Training"
@@ -84,6 +85,7 @@ multimodal-fusion-balancing:
   - Matthew Blaschko
   - Maarten De Vos
   journal: "NeurIPS 2025"
+  annotation: "(spotlight)"
   link: https://arxiv.org/pdf/2411.07335
 
 position-simulating-society:
@@ -325,7 +327,7 @@ osatlas:
 
 videowebarena:
   title: "VideoWebArena: Evaluating Long Context Multimodal Agents with Video Understanding Web Tasks"
-  date:
+  date: 2025-04
   authors:
   - Lawrence Jang
   - Yinheng Li
