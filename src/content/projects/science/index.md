@@ -24,6 +24,10 @@ Key works:
 
 [Foundations and Trends in Multimodal Machine Learning: Principles, Challenges, and Open Questions, ACM Computing Surveys 2024](https://arxiv.org/abs/2209.03430)
 
+![Alt Text](./survey.gif)
+
 [Quantifying & Modeling Multimodal Interactions: An Information Decomposition Framework, NeurIPS 2023](https://arxiv.org/abs/2302.12247)
+
+![Alt Text](./pid.gif)
 
 [Factorized Contrastive Learning: Going Beyond Multi-view Redundancy, NeurIPS 2023](https://arxiv.org/abs/2306.05268)
