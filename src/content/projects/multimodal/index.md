@@ -40,6 +40,10 @@ Interactive Sketchpad is an AI-powered tutoring system that integrates step-by-s
 
 [High-Modality Multimodal Transformer: Quantifying Modality & Interaction Heterogeneity for High-Modality Representation Learning, TMLR 2022](https://arxiv.org/abs/2203.01311)
 
+![Alt Text](./highmmt.gif)
+
 [MultiBench: Multiscale Benchmarks for Multimodal Representation Learning, NeurIPS 2021](https://arxiv.org/abs/2107.07502)
 
 [Multimodal Transformer for Unaligned Multimodal Language Sequences, ACL 2019](https://arxiv.org/abs/1906.00295)
+
+![Alt Text](./mult.gif)
