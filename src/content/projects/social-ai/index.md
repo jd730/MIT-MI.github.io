@@ -24,6 +24,6 @@ Key works:
 
 [Towards Understanding and Mitigating Social Biases in Language Models, ICML 2021](https://arxiv.org/abs/2106.13219)
 
-[Think Locally, Act Globally: Federated Learning with Local and Global Representations, NeurIPS 2020 Workshop on Federated Learning](https://arxiv.org/abs/2001.01523)
+[Think Locally, Act Globally: Federated Learning with Local and Global Representations, NeurIPS 2020 Workshop on Federated Learning Distinguished Student Paper](https://arxiv.org/abs/2001.01523)
 
 [Multimodal Language Analysis in the Wild: CMU-MOSEI Dataset and Interpretable Dynamic Fusion Graph, ACL 2018](https://aclanthology.org/P18-1208)
