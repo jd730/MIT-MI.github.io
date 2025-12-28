@@ -1,6 +1,6 @@
 ---
 name: "AI for Holistic Health and Wellness"
-description: "Developing technologies to assist medical professionals in decision-making, and helping patients track and improve their overall physical, emotional, and social wellbeing from clinical indicators of health and regular measures of wellness."
+description: "Developing technologies to assist medical professionals in clinical decision-making, and helping patients track and improve their overall physical, emotional, and social wellbeing."
 tags: []
 people: [david, jaedong, anku]
 image: "./cover.png"
