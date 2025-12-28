@@ -16,7 +16,7 @@ We are actively collaborating with the clinical researchers at Harvard Medical S
 
 Key works:
 
-[QoQ-Med: Building Multimodal Clinical Foundation Models with Domain-Aware GRPO Training, NeurIPS 2025 Oral](https://arxiv.org/abs/2506.00711)
+[QoQ-Med: Building Multimodal Clinical Foundation Models with Domain-Aware GRPO Training, NeurIPS 2025 oral](https://arxiv.org/abs/2506.00711)
 
 [FairGRPO: Towards Fair Reasoning Foundation Models for Clinical Diagnosis, arXiv 2025](https://openreview.net/forum?id=D0SgzgdBjo)
 
