@@ -12,12 +12,29 @@ interface Person {
   }
 }
 
+function shuffleArray(array: any[]) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[array[i], array[j]] = [array[j], array[i]]
+  }
+  return array
+}
+
 interface PeopleAvatarGridProps {
   people: Person[]
   className?: string
+  shuffle?: boolean
 }
 
-export function PeopleAvatarGrid({ people, className }: PeopleAvatarGridProps) {
+export function PeopleAvatarGrid({
+  people: _people,
+  className,
+  shuffle,
+}: PeopleAvatarGridProps) {
+  let people = _people
+  if (shuffle) {
+    people = shuffleArray(people)
+  }
   const scrollRef = React.useRef<HTMLDivElement>(null)
   const [showTopBlur, setShowTopBlur] = React.useState(false)
   const [showBottomBlur, setShowBottomBlur] = React.useState(false)

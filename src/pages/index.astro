@@ -11,16 +11,8 @@ import { getAllPeople, getAllProjects, getRecentPosts } from '@/lib/data-utils'
 import ImageCarousel from '@/components/ui/image-carousel'
 import { getCollection } from 'astro:content'
 
-function shuffleArray(array: any[]) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
-}
-
 const blog = await getRecentPosts(SITE.featuredPostCount)
 const people = await getAllPeople()
-shuffleArray(people);
 const projects = await getAllProjects()
 const groupPhotos = await getCollection('groupPhotos')
 ---
@@ -81,7 +73,7 @@ const groupPhotos = await getCollection('groupPhotos')
           </Link>
         </div>
         <div class="flex-1 min-h-0 rounded-lg border p-4 bg-background">
-          <PeopleAvatarGrid client:load people={people} className="h-full"/>
+          <PeopleAvatarGrid client:load people={people} className="h-full" shuffle={true} />
         </div>
       </section>
       <section class="flex flex-col gap-1">
