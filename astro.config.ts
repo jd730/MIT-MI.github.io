@@ -21,6 +21,14 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   site: 'https://MIT-MI.github.io',
   base: '/',
+  image: {
+    service: {
+      entrypoint: 'astro/assets/services/sharp',
+      config: {
+        limitInputPixels: false,
+      },
+    },
+  },
   integrations: [
     expressiveCode({
       themes: ['github-light', 'github-dark'],
