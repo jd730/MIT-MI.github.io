@@ -31,10 +31,12 @@ export function PeopleAvatarGrid({
   className,
   shuffle,
 }: PeopleAvatarGridProps) {
-  let people = _people
-  if (shuffle) {
-    people = shuffleArray(people)
-  }
+  const people = React.useMemo(() => {
+    if (shuffle) {
+      return shuffleArray(_people)
+    }
+    return _people
+  }, [_people, shuffle])
   const scrollRef = React.useRef<HTMLDivElement>(null)
   const [showTopBlur, setShowTopBlur] = React.useState(false)
   const [showBottomBlur, setShowBottomBlur] = React.useState(false)
