@@ -19,16 +19,12 @@ const publications = await getCollection('publications')
             <Image
               src={publication.data.image}
               alt={publication.data.title}
-              height={100}
-              width={200}
               class="w-1/4 object-cover"
             />
           ) : (
             <img
               src="/static/social-preview.png"
               alt={publication.data.title}
-              height={100}
-              width={200}
               class="w-1/4 object-cover"
             />
           )}
