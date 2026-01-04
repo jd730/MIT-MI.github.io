@@ -18,7 +18,7 @@ opentouch:
     - Wojciech Matusik
     - Paul Pu Liang
   journal: "arXiv preprint"
-  link: https://arxiv.org/pdf/2512.16842
+  link: https://arxiv.org/abs/2512.16842
   image: "./images/opentouch.gif"
 
 qoq-med:
@@ -30,7 +30,7 @@ qoq-med:
   - Chanakya Ekbote
   - Paul Pu Liang
   journal: "NeurIPS 2025"
-  link: https://arxiv.org/pdf/2506.00711
+  link: https://arxiv.org/abs/2506.00711
   annotation: "(oral)"
   image: "./images/qoqmed.png"
   
@@ -46,7 +46,7 @@ what-one-cannot-two-can:
   - Ashok Vardhan Makkuva
   - Paul Pu Liang
   journal: "NeurIPS 2025"
-  link: https://arxiv.org/pdf/2508.07208
+  link: https://arxiv.org/abs/2508.07208
   annotation: "(spotlight)"
   image: "./images/transformers.png"
 
@@ -62,11 +62,11 @@ multimodal-fusion-balancing:
   - Maarten De Vos
   journal: "NeurIPS 2025"
   annotation: "(spotlight)"
-  link: https://arxiv.org/pdf/2411.07335
+  link: https://arxiv.org/abs/2411.07335
   image: "./images/fusiongame.png"
 
 mimeqa:
-  title: "MimeQA: Towards socially-intelligent nonverbal foundation models"
+  title: "MimeQA: Towards Socially-intelligent Nonverbal Foundation Models"
   date: 2025-12
   authors: 
   - Hengzhi Li
@@ -75,7 +75,7 @@ mimeqa:
   - Armando Solar-Lezama
   - Paul Pu Liang
   journal: "NeurIPS 2025"
-  link: https://arxiv.org/pdf/2502.16671
+  link: https://arxiv.org/abs/2502.16671
   image: "./images/mimeqa.gif"
 
 pid:
@@ -108,7 +108,7 @@ position-simulating-society:
   - Luis Alonso
   - Kent Larson
   journal: "NeurIPS 2025"
-  link: https://arxiv.org/pdf/2506.06958
+  link: https://arxiv.org/abs/2506.06958
   image: "./images/simulatesociety.png"
 
 fairgrpo:
@@ -120,7 +120,7 @@ fairgrpo:
   - Jiaee Cheong
   - Paul Pu Liang
   journal: "arXiv preprint"
-  link: https://openreview.net/pdf?id=D0SgzgdBjo
+  link: https://arxiv.org/abs/2510.19893
   image: "./images/fairgrpo.png"
   
 page-4d:
@@ -136,7 +136,7 @@ page-4d:
   - Paul Pu Liang
   - Mengyu Wang
   journal: "arXiv preprint"
-  link: https://arxiv.org/pdf/2510.17568
+  link: https://arxiv.org/abs/2510.17568
   image: "./images/page4d.gif"
 
 human-behavior-atlas:
@@ -155,7 +155,7 @@ human-behavior-atlas:
   - Erik Cambria
   - Paul Pu Liang
   journal: "arXiv preprint"
-  link: https://arxiv.org/pdf/2510.04899
+  link: https://arxiv.org/abs/2510.04899
   image: "./images/hba.png"
 
 dialogues-with-ai:
@@ -168,7 +168,7 @@ dialogues-with-ai:
   - Andrew B Lippman
   - Pattie Maes
   journal: "arXiv preprint"
-  link: https://arxiv.org/pdf/2510.01537
+  link: https://arxiv.org/abs/2510.01537
   image: "./images/dialog.png"
 
 radar:
@@ -181,7 +181,7 @@ radar:
   - Balaji Vasan Srinivasan
   - Paul Pu Liang
   journal: "arXiv preprint"
-  link: https://arxiv.org/pdf/2508.16850
+  link: https://arxiv.org/abs/2508.16850
   image: "./images/radar.png"
 
 learn-globally-speak-locally:
@@ -197,7 +197,7 @@ learn-globally-speak-locally:
   - Ila Fiete
   - Paul Pu Liang
   journal: "arXiv preprint"
-  link: https://arxiv.org/pdf/2507.05418
+  link: https://arxiv.org/abs/2507.05418
   image: "./images/multilingual.png"
 
 climb:
@@ -212,11 +212,11 @@ climb:
   - Hejie Cui
   - Paul Pu Liang
   journal: "ICML 2025"
-  link: https://arxiv.org/pdf/2503.07667
+  link: https://arxiv.org/abs/2503.07667
   image: "./images/climb.png"
 
 understanding-the-emergence-of-multimodal-representation-alignment:
-  title: "Understanding the emergence of multimodal representation alignment"
+  title: "Understanding the Emergence of Multimodal Representation Alignment"
   date: 2025-07
   authors: 
   - Megan Tjandrasuwita
@@ -224,7 +224,7 @@ understanding-the-emergence-of-multimodal-representation-alignment:
   - Liu Ziyin
   - Paul Pu Liang
   journal: "ICML 2025"
-  link: https://arxiv.org/pdf/2502.16282?
+  link: https://arxiv.org/abs/2502.16282?
   image: "./images/alignment.png"
 
 mem1:
@@ -241,7 +241,7 @@ mem1:
   - Bryan Kian Hsiang Low
   - Paul Pu Liang
   journal: "arXiv preprint"
-  link: https://arxiv.org/pdf/2506.15841
+  link: https://arxiv.org/abs/2506.15841
   image: "./images/mem1.gif"
 
 puzzleworld:
@@ -261,7 +261,7 @@ puzzleworld:
   - Rebecca Chang
   - Paul Pu Liang
   journal: "arXiv preprint"
-  link: https://arxiv.org/pdf/2506.06211
+  link: https://arxiv.org/abs/2506.06211
   image: "./images/puzzleworld.png"
 
 smellnet:
@@ -273,7 +273,7 @@ smellnet:
   - David Dai
   - Paul Pu Liang
   journal: "arXiv preprint"
-  link: https://arxiv.org/pdf/2506.00239
+  link: https://arxiv.org/abs/2506.00239
   image: "./images/smellnet.gif"
 
 interactive-sketchpad:
@@ -284,7 +284,7 @@ interactive-sketchpad:
   - Jimin Lee
   - Paul Pu Liang
   journal: "CHI 2025 Late-Breaking Work"
-  link: https://arxiv.org/pdf/2503.16434
+  link: https://arxiv.org/abs/2503.16434
   image: "./images/sketchpad.gif"
 
 fits-like-a-flex-glove:
@@ -301,7 +301,7 @@ fits-like-a-flex-glove:
   - Antonio Torralba
   - Wojciech Matusik
   journal: "CHI 2025 Late-Breaking Work"
-  link: https://arxiv.org/pdf/2503.06349
+  link: https://arxiv.org/abs/2503.06349
   image: "./images/glove.png"
 
 compositionality:
@@ -374,5 +374,5 @@ bigbench:
   - 442 authors including Paul Pu Liang
   journal: "ICLR 2025, TMLR 2023"
   annotation: "(finalist for outstanding certification)"
-  link: https://openreview.net/forum?id=uyTL5Bvosj
+  link: https://arxiv.org/abs/2206.04615
   image: "./images/bigbench.png"
