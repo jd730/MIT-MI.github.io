@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Tooltip } from '@/components/ui/tooltip'
 import AvatarComponent from '@/components/ui/avatar'
 import { Link } from '@/components/ui/link'
-import { cn } from '@/lib/utils'
+import { cn, shuffleArray } from '@/lib/utils'
 
 interface Person {
   id: string
@@ -10,14 +10,6 @@ interface Person {
     name: string
     avatar?: string
   }
-}
-
-function shuffleArray(array: any[]) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[array[i], array[j]] = [array[j], array[i]]
-  }
-  return array
 }
 
 interface PeopleAvatarGridProps {
