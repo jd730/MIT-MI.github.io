@@ -1,6 +1,6 @@
-dome:
-  image: "./images/dome.png"
-  caption: "Group photo at the MIT Dome, 2024"
+# dome:
+#   image: "./images/dome.png"
+#   caption: "Group photo at the MIT Dome, 2024"
 grad25:
   image: "./images/grad25.png"
   caption: "Group photo during MIT commencement 2025"

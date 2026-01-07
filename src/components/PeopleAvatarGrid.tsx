@@ -2,13 +2,13 @@ import * as React from 'react'
 import { Tooltip } from '@/components/ui/tooltip'
 import AvatarComponent from '@/components/ui/avatar'
 import { Link } from '@/components/ui/link'
-import { cn, shuffleArray } from '@/lib/utils'
+import { cn, shuffleArray, getAvatarSrc } from '@/lib/utils'
 
 interface Person {
   id: string
   data: {
     name: string
-    avatar?: string
+    avatar?: string | { src: string }
   }
 }
 
@@ -76,7 +76,10 @@ export function PeopleAvatarGrid({
           <Tooltip key={person.id} content={person.data.name}>
             <Link href={`/people/${person.id}`} className="block">
               <AvatarComponent
-                src={person.data.avatar || '/static/avatar-fallback.png'}
+                src={
+                  getAvatarSrc(person.data.avatar) ||
+                  '/static/avatar-fallback.png'
+                }
                 alt={`Avatar of ${person.data.name}`}
                 fallback={person.data.name[0]}
                 className={cn(

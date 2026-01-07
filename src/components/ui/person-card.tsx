@@ -2,12 +2,12 @@ import * as React from 'react'
 import { Link } from '@/components/ui/link'
 import AvatarComponent from '@/components/ui/avatar'
 import { SocialIcons } from '@/components/ui/social-icons'
-import { cn } from '@/lib/utils'
+import { cn, getAvatarSrc } from '@/lib/utils'
 import type { SocialLink } from '@/types'
 
 interface PersonData {
   name: string
-  avatar?: string
+  avatar?: string | { src: string }
   title?: string
   email?: string
   website?: string
@@ -60,10 +60,10 @@ export function PersonCard({
       href={`/people/${person.id}`}
       className={cn('block', isPersonPage && 'pointer-events-none', className)}
     >
-      <div className="bg-background transition-shadow overflow-hidden rounded-xl border p-4 duration-300 ease-in-out hover:cursor-pointer hover:ring-2">
+      <div className="bg-background overflow-hidden rounded-xl border p-4 transition-shadow duration-300 ease-in-out hover:cursor-pointer hover:ring-2">
         <div className="flex flex-wrap gap-4">
           <AvatarComponent
-            src={avatar || '/static/avatar-fallback.png'}
+            src={getAvatarSrc(avatar) || '/static/avatar-fallback.png'}
             alt={`Avatar of ${name}`}
             fallback={name[0]}
             className={cn(

@@ -1,7 +1,7 @@
 ---
 import Link from '@/components/Link.astro'
 import AvatarComponent from '@/components/ui/avatar'
-import { cn } from '@/lib/utils'
+import { cn, getAvatarSrc } from '@/lib/utils'
 import type { SocialLink } from '@/types'
 import type { CollectionEntry } from 'astro:content'
 import SocialIcons from './SocialIcons.astro'
@@ -44,7 +44,7 @@ const socialLinks: SocialLink[] = [
     <div class="flex flex-wrap gap-4">
       <AvatarComponent
         client:load
-        src={avatar || '/static/avatar-fallback.png'}
+        src={getAvatarSrc(avatar)}
         alt={`Avatar of ${name}`}
         fallback={name[0]}
         className={cn(

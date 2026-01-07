@@ -3,7 +3,7 @@ import Link from '@/components/Link.astro'
 import AvatarComponent from '@/components/ui/avatar'
 import { Badge } from '@/components/ui/badge'
 import { parsePeople } from '@/lib/data-utils'
-import { formatDate } from '@/lib/utils'
+import { formatDate, getAvatarSrc } from '@/lib/utils'
 import { Icon } from 'astro-icon/components'
 import { Image } from 'astro:assets'
 import type { CollectionEntry } from 'astro:content'
@@ -53,7 +53,7 @@ const people = await parsePeople(project.data.people ?? [])
                 <div class="flex items-center gap-x-1.5">
                   <AvatarComponent
                     client:load
-                    src={person.avatar}
+                    src={getAvatarSrc(person.avatar)}
                     alt={person.name}
                     fallback={person.name[0]}
                     className="size-5 rounded-full"

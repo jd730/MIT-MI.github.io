@@ -4,7 +4,7 @@ import { cn, shuffleArray } from '@/lib/utils'
 
 interface PersonData {
   name: string
-  avatar?: string
+  avatar?: string | { src: string }
   title?: string
   email?: string
   website?: string
