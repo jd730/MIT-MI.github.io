@@ -1,6 +1,6 @@
 ---
 name: "Lucy Zhao"
 title: "Graduate student"
-avatar: "https://xinyuzhao.io/assets/img/photo2.jpg"
+avatar: "./images/lucy.png"
 website: "https://xinyuzhao.io/"
 ---
