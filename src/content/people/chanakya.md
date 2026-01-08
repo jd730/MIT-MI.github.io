@@ -1,7 +1,7 @@
 ---
 name: "Chanakya Ekbote"
 title: "Graduate student"
-avatar: "https://dam-prod.media.mit.edu/thumb/2024/10/06/_MG_3955.jpg.800x800.jpg"
+avatar: "./images/chanakya.png"
 website: "https://scholar.google.com/citations?hl=en&user=Jr2CK6QAAAAJ"
 ---
 
