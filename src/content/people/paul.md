@@ -1,7 +1,7 @@
 ---
 name: "Paul Liang"
 title: "Faculty"
-avatar: "https://dam-prod.media.mit.edu/thumb/2024/10/02/paul-liang-headshot.jpg.800x800.jpg"
+avatar: "./images/paul.png"
 website: "https://pliang279.github.io/"
 ---
 
