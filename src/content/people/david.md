@@ -1,7 +1,7 @@
 ---
 name: "David Dai"
 title: "Graduate student"
-avatar: "https://dam-prod.media.mit.edu/thumb/2024/10/01/profile pic.png.800x800.png"
+avatar: "./images/david.png"
 website: "https://dd.works/"
 ---
 
