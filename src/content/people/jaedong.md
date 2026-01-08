@@ -1,6 +1,6 @@
 ---
 name: "Jaedong Hwang"
 title: "Graduate student"
-avatar: "https://dam-prod.media.mit.edu/thumb/2025/09/08/profile.jpeg.800x800.jpeg"
+avatar: "./images/jaedong.png"
 website: "https://jd730.github.io/"
 ---
