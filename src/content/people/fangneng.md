@@ -1,6 +1,6 @@
 ---
 name: "Fangneng Zhan"
 title: "Postdoc researcher"
-avatar: "https://fnzhan.com/images/profile.png"
+avatar: "./images/fangneng.png"
 website: "https://fnzhan.com/"
 ---
