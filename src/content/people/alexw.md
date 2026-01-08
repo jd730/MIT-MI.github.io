@@ -1,6 +1,6 @@
 ---
 name: "Alex Wilf"
 title: "Visiting researcher"
-avatar: "https://abwilf.github.io/assets/img/prof_pic3.jpg?80d608a00db3d5c1702b90f9b96daaae"
+avatar: "./images/alexw.png"
 website: "https://abwilf.github.io/"
 ---
