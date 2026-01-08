@@ -1,6 +1,6 @@
 ---
 name: "Ao Qu"
 title: "Graduate student"
-avatar: "https://quao627.github.io/profile.jpg"
+avatar: "./images/ao.png"
 website: "https://quao627.github.io/"
 ---
