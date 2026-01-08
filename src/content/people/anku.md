@@ -1,7 +1,7 @@
 ---
 name: "Anku Rani"
 title: "Graduate student"
-avatar: "https://dam-prod.media.mit.edu/thumb/2024/09/12/IMG_3635.jpeg.800x800.jpeg"
+avatar: "./images/anku.png"
 website: "https://sites.google.com/view/ankurani/"
 ---
 
