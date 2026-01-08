@@ -1,7 +1,7 @@
 ---
 name: "Megan Tjandrasuwita"
 title: "Graduate student"
-avatar: "https://megantj.github.io/images/profile.png"
+avatar: "./images/megan.png"
 website: "https://megantj.github.io/"
 ---
 
