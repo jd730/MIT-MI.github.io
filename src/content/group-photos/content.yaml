@@ -1,6 +1,9 @@
-# dome:
-#   image: "./images/dome.png"
-#   caption: "Group photo at the MIT Dome, 2024"
+neurips25:
+  image: "./images/neurips25.png"
+  caption: "Group party at NeurIPS 2025"
+dome:
+  image: "./images/dome.png"
+  caption: "Group photo at the MIT Dome, 2024"
 grad25:
   image: "./images/grad25.png"
   caption: "Group photo during MIT commencement 2025"
@@ -13,6 +16,3 @@ icml25:
 thanksgiving25:
   image: "./images/thanksgiving25.png"
   caption: "Group thanksgiving dinner, 2025"
-neurips25:
-  image: "./images/neurips25.png"
-  caption: "Group dinner at NeurIPS 2025"
